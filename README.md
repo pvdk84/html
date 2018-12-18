@@ -10,5 +10,5 @@ Features:
 - image that fills screen
 - calculator
 
-TO-DO:
-- url after submit
+Useful sources:
+- https://www.w3schools.com/html/default.asp
