@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>HTML project: Calculator</title>
+</head>
+
+<body>
+  <h2>HTML project: Calculator</h2>
+  <table>
+    <tr>
+      <td><a href="about.html">About</a></td>
+      <td><a href="form.html">Form</a></td>
+      <td><a href="image.html">Image</a></td>
+      <td><a href="calculator.html">Calculator</a></td>
+    </tr>
+  </table>
+  <br>
+  <form name="calculator">
+    <input type="textfield" name="display" value="" size="16">
+    <table>
+      <tr>
+        <td><input type="button" value="1" onClick="display.value+='1'"></td>
+        <td><input type="button" value="2" onClick="display.value+='2'"></td>
+        <td><input type="button" value="3" onClick="display.value+='3'"></td>
+        <td><input type="button" value="+" onClick="display.value+='+'"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onClick="display.value+='4'"></td>
+        <td><input type="button" value="5" onClick="display.value+='5'"></td>
+        <td><input type="button" value="6" onClick="display.value+='6'"></td>
+        <td><input type="button" value="-" onClick="display.value+='-'"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" onClick="display.value+='7'"></td>
+        <td><input type="button" value="8" onClick="display.value+='8'"></td>
+        <td><input type="button" value="9" onClick="display.value+='9'"></td>
+        <td><input type="button" value="*" onClick="display.value+='*'"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="reset" value="Reset"></td>
+        <td><input type="button" value="0" onClick="display.value+='0'"></td>
+        <td><input type="button" value="=" onClick="display.value=eval(display.value)"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
